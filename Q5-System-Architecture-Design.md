@@ -3,7 +3,7 @@
 #### Problem Statement
 
 - You need to design a scalable architecture for a new feature that involves real-time data processing and analytics.
-- The system will ingest data from multiple sources, process it in real-time, and store the results in both MongoDB and PostgreSQL for different types of querying.\
+- The system will ingest data from multiple sources, process it in real-time, and store the results in both MongoDB and PostgreSQL for different types of querying.
 - The architecture must support high availability, fault tolerance, and scalability. Provide a high-level architecture design with key components and justify your choices.
 
 <br/>
