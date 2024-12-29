@@ -6,10 +6,9 @@
 - The system will ingest data from multiple sources, process it in real-time, and store the results in both MongoDB and PostgreSQL for different types of querying.
 - The architecture must support high availability, fault tolerance, and scalability. Provide a high-level architecture design with key components and justify your choices.
 
-<br/>
-
-## High-Level Architecture (Key Components)
 &nbsp;
+
+# High-Level Architecture (Key Components)
 
 ## 1. Data Ingestion: Apache Kafka
 #### Justification:
@@ -17,8 +16,6 @@
   - Kafka is selected as it best for deliver high throughput and exceptional fault tolerance.
   - It should be able to handle real-time data streams from multiple sources.
   - Kafka ensures data integrity by buffering incoming data streams and thus we won't lose data even if downstream system failures.
-
-&nbsp;
 
 ## 2. Stream Processing: Apache Flink
 #### Justification:
