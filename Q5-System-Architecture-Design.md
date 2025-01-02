@@ -13,7 +13,7 @@
 &nbsp;
 
 ## How Do the Services Communicate with Each Other?
-#### Note
+#### <span style="color:red;">Note</span>
 - This architecture can be scaled by deploying it in Kubernetes (K8s).
 ```mermaid
     graph LR
@@ -51,7 +51,7 @@
         PS -.->|Logs & Metrics| ELK
 ```
 ## How Does the Kubernetes Deployment for the Above Service Look?
-#### Note
+#### <span style="color:red;">Note</span>
 - We can have multiple regions to ensure high availability.
 - Kubernetes can manage **multiple replicas of pods across different worker nodes for scalability and fault tolerance**.
 - For **simplicity**, the diagram below shows **only one node**.
